@@ -1,0 +1,38 @@
+nav{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    display:flex;
+    align-items: center;
+}
+.middle{
+    display: flex;
+    align-items: center;
+}
+.middle .input{
+    display: flex;
+    align-items: stretch;
+}
+.middle .input input{
+    border: none;
+    border-radius: 5px ;
+    background-color:#121212 ;
+    width: 300px;
+
+}
+.middle .input button{
+    border : none;
+    background-color: #303030;
+ 
+    
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
